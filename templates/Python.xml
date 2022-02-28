@@ -1,0 +1,3 @@
+<templateSet group="Python">
+  <template name="gui" value="rr" description="Gui intial template" toReformat="false" toShortenFQNames="true" />
+</templateSet>
