@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Build_UI" description="Build ui files with pyside2 uic" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Louis\WORK\00_DEV\LAB\venv\Scripts\pyside2-uic.exe" />
+      <option name="PARAMETERS" value="$FileName$ -o $FileNameWithoutExtension$_src.py" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
